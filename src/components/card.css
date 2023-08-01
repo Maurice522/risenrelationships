@@ -1,0 +1,14 @@
+.card{
+    transition: all 0.1s ease;
+}
+.card:hover{
+    border: 2px solid #03A9F4;
+    cursor: pointer;
+}
+.cd{
+    transition: all 0.1s ease;
+}
+.cd:hover{
+    border: 1px solid #03A9F4;
+    cursor: pointer;
+}

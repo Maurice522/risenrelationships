@@ -1,0 +1,7 @@
+.nav-link{
+    transition: all 0.3s ease;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #03A9F4;
+    color: #03A9F4;
+}
