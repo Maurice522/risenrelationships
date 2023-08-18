@@ -5,3 +5,47 @@
     border-bottom: 1px solid #03A9F4;
     color: #03A9F4;
 }
+.menu-item{
+    font-size: 11px;
+    width: 9rem;
+    border: 2px solid #adb5bd;
+    background: #3FB245;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    /* margin: 5px; */
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.menu{
+    width: 177px;
+    height: max-content;
+    background: #ecf1ec;
+    position: absolute;
+    right: 40rem;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    z-index: 99999;
+    border-radius: 10px;
+    box-shadow: none;
+}
+@media screen and (max-width: 480px) {
+    a{
+        margin-left: 9px;
+    }
+    .btn-16{
+        padding-left: 2%;
+    }
+    .custom-btn{
+        width: 123px;
+    }
+}

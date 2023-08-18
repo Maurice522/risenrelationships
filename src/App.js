@@ -6,6 +6,8 @@ import Single from "./pages/singleblog";
 import LinkBlog from "./pages/linkblog";
 import Mainpage from "./pages/mainpage";
 import LinkBlogtl from "./pages/blogtl";
+import TopicBlogs from "./pages/TopicBlogs";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         {/* <Route path="/viewblog" element={<Single/>} /> */}
         {/* <Route path="/blog/:id" element={<LinkBlog/>} /> */}
         <Route path="/tl/blog/:id" element={<LinkBlogtl/>} />
+        <Route path="/blog/:id" element={<TopicBlogs/>} />
       </Routes>
     </>
   );
