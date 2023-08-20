@@ -20,7 +20,7 @@ function TextCard({props}) {
 
         <div className="card-body cd" style={{backgroundColor:"#fff"}}>
             <blockquote className="blockquote mb-0">
-            <h4 style={{color:"#03A9F4"}}>{props.heading}</h4>
+            <h4 style={{color:"#CEAB93"}}>{props.heading}</h4>
             {/* <p style={{marginTop:"20px"}}>{props.body[0]}</p> */}
             <p style={{marginTop:"20px", fontSize: "17px", color:"#aaaaaa", textAlign:"justify"}}>{ para.slice(0,400)/*props.body[0].length<250 ? props.body[1].length<250? props.body[2].substr(0,290):props.body[1].substr(0,290):props.body[0].substr(0,290) */}... </p> 
             <footer style={{marginTop:"20px"}} className="blockquote-footer">{props.author}</footer>

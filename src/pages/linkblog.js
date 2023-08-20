@@ -20,7 +20,7 @@ export default function LinkBlog() {
         if(res){
           var tempPara = []
           res.body.map((item,index)=>{
-              if(item!=undefined)
+              if(item!==undefined)
               {
               if(item.split(' ')[0] == "Image"&& item.split(' ')[1] == "Credits:"){
                   console.log(item)
@@ -44,7 +44,7 @@ export default function LinkBlog() {
     <>
     <div className='main2'>
         
-            <a href="/" style={{textDecoration: "none", marginBottom:"10%"}}> 
+            <a href="/" style={{textDecoration: "none", marginBottom:"10%",color:"FFFBE9"}}> 
                
                <h2>GO HOME</h2>
                </a>

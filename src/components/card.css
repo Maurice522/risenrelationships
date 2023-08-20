@@ -11,14 +11,14 @@
     background-color: #FFF;
 }
 .card:hover{
-    border: 2px solid #03A9F4;
+    border: 2px solid #CEAB93;
     cursor: pointer;
 }
 .cd{
     transition: all 0.1s ease;
 }
 .cd:hover{
-    border: 1px solid #03A9F4;
+    border: 1px solid #CEAB93;
     cursor: pointer;
 }
 .card-img-top{

@@ -57,7 +57,7 @@ function MainPage() {
     <>
     <Navbar/>
     <div style={{marginTop:"40px"}} className='container'>
-        <h1 style={{color:"#03A9F4",paddingBottom:"20px" ,borderBottom:"2px solid #03A9F4"}}>EXPLORE</h1>
+        <h1 style={{color:"#CEAB93",paddingBottom:"20px" ,borderBottom:"2px solid #CEAB93"}}>EXPLORE</h1>
     </div>
 
    

@@ -7,10 +7,6 @@
 }
 .menu-item{
     font-size: 11px;
-    width: 9rem;
-    border: 2px solid #adb5bd;
-    background: #3FB245;
-    border-radius: 10px;
     cursor: pointer;
     text-align: center;
     /* margin: 5px; */
@@ -20,12 +16,17 @@
     align-items: center;
     margin-top: 3px;
     margin-bottom: 3px;
+    padding: 5px;
+}
+.menu-item:hover{
+    border: 2px solid #AD8B73;
+    border-radius: 10px;
 }
 
 .menu{
     width: 177px;
     height: max-content;
-    background: #ecf1ec;
+    background: #CEAB93;
     position: absolute;
     right: 40rem;
     top: 5rem;

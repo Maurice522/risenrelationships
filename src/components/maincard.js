@@ -19,7 +19,7 @@ function MainCard({props}) {
       <div  className="card" >
          <img src={props.img} className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 style={{color: "#03A9F4", marginBottom:"10px"}}className="card-title">{props.heading}</h5>
+        <h5 style={{color: "#CEAB93", marginBottom:"10px"}}className="card-title">{props.heading}</h5>
         <p style={{color: "#aaaaaa", fontSize: "17px", textAlign:"justify", marginTop:"10px"}}>{ para.slice(0,400)}... </p> 
         {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
       </div>

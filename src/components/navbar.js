@@ -17,7 +17,7 @@ function Navbar() {
        
       ]
   return (
-    <nav className="navbar navbar-expand-lg   " style={{backgroundColor:"#4CAF50", color:"#F9F7F7", paddingTop:"20px"}}>
+    <nav className="navbar navbar-expand-lg   " style={{backgroundColor:"#AD8B73", color:"#F9F7F7", paddingTop:"20px"}}>
         <div className='container'>
         <a className="navbar-brand" style={{fontSize:"24px", textTransform:"uppercase", letterSpacing:"4px",color:"#ffffff", fontWeight:"700", fontFamily: 'Kanit, sans-serif'}} href="/">Rise and Relationships</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">

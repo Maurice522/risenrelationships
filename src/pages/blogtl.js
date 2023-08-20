@@ -19,17 +19,28 @@ export default function LinkBlogtl() {
         var res = await getBlog(id, setData)
         if(res){
           var tempPara = []
+          let temp=[]
           res.body.map((item,index)=>{
-              if(item!=undefined)
+            
+            console.log("item",item)
+              if(item!=="")
               {
               if(item.split(' ')[0] == "Image"&& item.split(' ')[1] == "Credits:"){
                   console.log(item)
               }else{
-                  tempPara.push(<p style={{color: "black", fontSize: "17px"}}>{item}</p> )
+                let str=item+" "
+                  temp.push(str)
+                  console.log("temp1",temp)
               }
               }
+              else{
+                tempPara.push(<p style={{color: "black", fontSize: "17px"}}>{" "}{temp.slice(0)}</p>)
+                console.log("temppara",tempPara)
+                temp=[]
+            }
               
          })
+         tempPara.push(<p style={{color: "black", fontSize: "17px"}}>{temp}</p>)
          setPara(tempPara)
         }else {
           console.log("NOT FOUND")

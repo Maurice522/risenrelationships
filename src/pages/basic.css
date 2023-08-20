@@ -46,6 +46,9 @@ a {
 .pstyle{
     color: grey; font-size: 13px; margin-top: 8px;
 }
+.h2style{
+    color: #CEAB93;
+}
 @media screen and (max-width: 480px) {
    .imgStyle{
     height: 359px;
