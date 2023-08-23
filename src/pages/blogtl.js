@@ -25,6 +25,14 @@ export default function LinkBlogtl() {
             console.log("item",item)
               if(item!=="")
               {
+                let str=" "
+                for(let i=0;i<item.length;i++){
+                  if(item[i]!=='*'){
+                    str+=item[i]
+                    console.log("item i",item[i])
+                  }
+                }
+                item=str;
               if(item.split(' ')[0] == "Image"&& item.split(' ')[1] == "Credits:"){
                   console.log(item)
               }else{

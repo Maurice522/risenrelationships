@@ -2,8 +2,8 @@
     transition: all 0.3s ease;
 }
 .nav-link:hover{
-    border-bottom: 1px solid #03A9F4;
-    color: #03A9F4;
+    border-bottom: 1px solid #AD8B73;
+    color: #AD8B73;
 }
 .menu-item{
     font-size: 11px;
@@ -22,6 +22,16 @@
     border: 2px solid #AD8B73;
     border-radius: 10px;
 }
+.dropdown-basic{
+    background: none;
+    border: none;
+    font-size: 17px;
+    padding-top: 8px;
+    font-weight: 600;
+    padding-left: 26px;
+
+}
+
 
 .menu{
     width: 177px;

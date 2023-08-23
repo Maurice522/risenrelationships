@@ -60,6 +60,36 @@ function MainPage() {
         <h1 style={{color:"#CEAB93",paddingBottom:"20px" ,borderBottom:"2px solid #CEAB93"}}>EXPLORE</h1>
     </div>
 
+    { (!loading&&data?.length===1)?
+    <div className="container">
+        <div style={{marginTop:"40px"}} className="row">
+            <div  className="col-sm">
+                <div onClick={()=>viewblog(data[0])}>
+                    <MainCard  props={data[0]}/>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+  :null}
+    { (!loading&&data?.length===2)?
+    <div className="container">
+        <div style={{marginTop:"40px"}} className="row">
+            <div  className="col-sm">
+                <div onClick={()=>viewblog(data[0])}>
+                    <MainCard  props={data[0]}/>
+                </div>
+            </div>
+            <div className="col-sm">
+                <div onClick={()=>viewblog(data[1])}>
+                    <MainCard props={data[1]}/>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+  :null}
+
    
    
 

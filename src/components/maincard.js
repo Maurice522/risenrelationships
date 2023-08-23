@@ -5,14 +5,23 @@ import "./card.css"
 function MainCard({props}) {
   console.log(props)
   let para="";
-  for(var i=0;i<3;i++){
-    if(props.body[i]!==undefined && props.body[i]!=="Introduction"){
+  for(var i=0;i<props.body.length;i++){
+    if(props.body[i]!==undefined && props.body[i]!=="Introduction"&& props.body[i]!=='*'){
+      
       para+=props.body[i];
     }
 
    
     
   }
+  let str=" "
+  for(let i=0;i<para.length;i++){
+    if(para[i]!=="*"){
+      str+=para[i]
+    }
+
+  }
+  para=str;
   return (
     <>
     { true?
